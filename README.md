@@ -358,6 +358,23 @@
 
 <div align="center">
 
+<div align="center">
+
+<div align="center">
+
+<h2>🧩 LeetCode & DSA</h2>
+
+<br>
+
+<img src="https://leetcard.jacoblin.cool/meet-sheth25?theme=dark&font=Outfit&ext=heatmap&cache=0" width="90%" alt="LeetCode Statistics"/>
+
+<br><br>
+
+<a href="https://leetcode.com/u/meet-sheth25/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode_Profile-22C55E?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=08110C"/>
+</a>
+
+</div>
 <h2>📊 GitHub Telemetry & Activity</h2>
 
 <br>
