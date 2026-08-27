@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Generate profile cards
-        uses: seijikohara/profile-cards-action@v1
+        uses: seijikohara/profile-cards-action@v0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: Meetsheth25

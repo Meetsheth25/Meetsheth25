@@ -358,48 +358,51 @@
 
 <div align="center">
 
-<h2>🧩 LeetCode & DSA</h2>
-
-<br>
-
-<img src="https://leetcard.jacoblin.cool/meet-sheth25?theme=dark&font=Outfit&ext=heatmap&cache=0" width="90%" alt="LeetCode Statistics"/>
-
-<br><br>
-
-<a href="https://leetcode.com/u/meet-sheth25/" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode_Profile-22C55E?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=08110C"/>
-</a>
-
-</div>
-
-<br><br>
-
-<div align="center">
-
 <h2>📊 GitHub Telemetry & Activity</h2>
 
 <br>
 
 <!-- Self-hosted GitHub Overview -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg"/>
-  <img src="./assets/overview.light.svg" width="100%" alt="GitHub Overview"/>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/overview.dark.svg"
+  />
+  <img
+    src="./assets/overview.light.svg"
+    width="100%"
+    alt="GitHub Overview"
+  />
 </picture>
 
 <br><br>
 
 <!-- Self-hosted Contribution Streaks & Calendar -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions.dark.svg"/>
-  <img src="./assets/contributions.light.svg" width="100%" alt="GitHub Contributions and Streaks"/>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/contributions.dark.svg"
+  />
+  <img
+    src="./assets/contributions.light.svg"
+    width="100%"
+    alt="GitHub Contributions and Streaks"
+  />
 </picture>
 
 <br><br>
 
 <!-- Self-hosted Languages -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/languages.dark.svg"/>
-  <img src="./assets/languages.light.svg" width="100%" alt="GitHub Languages"/>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/languages.dark.svg"
+  />
+  <img
+    src="./assets/languages.light.svg"
+    width="100%"
+    alt="GitHub Languages"
+  />
 </picture>
 
 <br><br>
