@@ -358,10 +358,6 @@
 
 <div align="center">
 
-<div align="center">
-
-<div align="center">
-
 <h2>🧩 LeetCode & DSA</h2>
 
 <br>
@@ -375,24 +371,54 @@
 </a>
 
 </div>
+
+<br><br>
+
+<div align="center">
+
 <h2>📊 GitHub Telemetry & Activity</h2>
 
 <br>
 
-
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Meetsheth25&theme=dark&background=08110C&border=14532D&stroke=22C55E&ring=22C55E&fire=22C55E&currStreakNum=DAF1DE&sideNums=DAF1DE&currStreakLabel=22C55E&sideLabels=22C55E&dates=DAF1DE" width="90%" alt="GitHub Streak Stats"/>
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Meetsheth25&theme=react-dark&bg_color=08110C&color=22C55E&line=22C55E&point=DAF1DE&area=true&hide_border=false" width="90%" alt="GitHub Activity Graph"/>
-
-<br><br>
-
+<!-- Self-hosted GitHub Overview -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Meetsheth25/Meetsheth25/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Meetsheth25/Meetsheth25/output/github-contribution-grid-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/Meetsheth25/Meetsheth25/output/github-contribution-grid-snake-dark.svg" width="90%" alt="Snake Animation"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg"/>
+  <img src="./assets/overview.light.svg" width="100%" alt="GitHub Overview"/>
+</picture>
+
+<br><br>
+
+<!-- Self-hosted Contribution Streaks & Calendar -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions.dark.svg"/>
+  <img src="./assets/contributions.light.svg" width="100%" alt="GitHub Contributions and Streaks"/>
+</picture>
+
+<br><br>
+
+<!-- Self-hosted Languages -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/languages.dark.svg"/>
+  <img src="./assets/languages.light.svg" width="100%" alt="GitHub Languages"/>
+</picture>
+
+<br><br>
+
+<!-- Existing Contribution Snake -->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Meetsheth25/Meetsheth25/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Meetsheth25/Meetsheth25/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    src="https://raw.githubusercontent.com/Meetsheth25/Meetsheth25/output/github-contribution-grid-snake-dark.svg"
+    width="90%"
+    alt="GitHub Contribution Snake Animation"
+  />
 </picture>
 
 </div>
