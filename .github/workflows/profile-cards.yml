@@ -9,14 +9,14 @@ permissions:
   contents: write
 
 jobs:
-  profile-cards:
+  cards:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Generate profile cards
+      - name: Render profile cards
         uses: seijikohara/profile-cards-action@v0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -25,3 +25,26 @@ jobs:
           output-dir: assets
           themes: light,dark
           commit: true
+
+      - name: Verify generated SVGs
+        run: |
+          missing=0
+          for file in \
+            assets/overview.dark.svg \
+            assets/overview.light.svg \
+            assets/contributions.dark.svg \
+            assets/contributions.light.svg \
+            assets/languages.dark.svg \
+            assets/languages.light.svg
+          do
+            if [ ! -s "$file" ]; then
+              echo "::error::Missing or empty SVG file: $file"
+              missing=$((missing + 1))
+            else
+              echo "Verified: $file"
+            fi
+          done
+          if [ $missing -ne 0 ]; then
+            echo "Verification failed: $missing expected SVG file(s) are missing or empty."
+            exit 1
+          fi
